@@ -1,5 +1,6 @@
 import Hello from "./Hello";
 import KgButton from "./KgButton";
+import Random from "./Random";
 
 function App(){
   return (
@@ -7,7 +8,14 @@ function App(){
       <h1>My React App</h1>
       <p>This is a simple React application.</p>
       <Hello />
-      <p>Click the button above to like this video.</p>
+      <Random />
+      <Random />
+      <Random />
+      <Random />
+      <Random />
+      <Random />
+      <Random />
+
     </div>
   );
 }
