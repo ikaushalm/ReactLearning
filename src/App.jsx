@@ -1,3 +1,4 @@
+import Hello from "./Hello";
 import KgButton from "./KgButton";
 
 function App(){
@@ -5,7 +6,7 @@ function App(){
     <div>
       <h1>My React App</h1>
       <p>This is a simple React application.</p>
-      <KgButton />
+      <Hello />
       <p>Click the button above to like this video.</p>
     </div>
   );
